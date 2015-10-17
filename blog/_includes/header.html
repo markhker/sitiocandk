@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% if page.title %}{{ page.title }} | {{ site.data.global.title }}{% elsif post.title %}{{ post.title }} | {{ site.data.global.title }}{% else %}{{ site.data.global.title }} | {{ site.data.global.description }}{% endif %}</title>
+            <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.data.global.title }} {{ site.data.global.description }}" href="{{ site.data.global.url }}/blog/feed.xml">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.data.global.title }} {{ site.data.global.description }}" href="{{ site.data.global.url }}/blog/atom.xml">
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="{{ site.data.global.url }}/css/materialize.css">
+        <link rel="stylesheet" href="{{ site.data.global.url }}/css/main.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        
+        <!-- FavIcon -->
+        <link rel="image_src" href="{{ site.data.global.url }}/img/icon.png">
+        <link rel="icon" href="{{ site.data.global.url }}/img/icon.png">
+        <link rel="shortcut icon" href="{{ site.data.global.url }}/img/icon.png">
+        
+        <!-- Metas -->
+        <meta name="description" content="Blog C&K | Tu empresa en la nube | México">
+        <meta name="author" content="Mark Hkr">
+        <meta property="fb:admins" content="100002353510548" />
+       
+        <!-- Open Graph -->
+        <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.data.global.title }}{% elsif post.title %}{{ post.title }} | {{ site.data.global.title }}{% else %}{{ site.data.global.title }} | {{ site.data.global.description }}{% endif %}">
+        <meta property="og:type" content="article">
+        <meta property="og:site_name" content="Blog | Cloud & Kloud">
+        <meta property="og:url" content="{{ site.data.global.url }}{{ page.url }}">
+        <meta property="og:description" content="{{ page.lead_text }}">
+        <meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image }}{% else %}http://cloudandkloud.com/img/og_img.jpg{% endif %}">
+        
+        <!--Twitter-->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@cloudandkloud">
+        <meta name="twitter:description" content="{{ page.lead_text }}"/>
+        <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.data.global.title }}{% elsif post.title %}{{ post.title }} | {{ site.data.global.title }}{% else %}{{ site.data.global.title }} | {{ site.data.global.description }}{% endif %}"/>
+        <meta name="twitter:image" content="{% if page.featured_image %}{{ page.featured_image }}{% else %}http://cloudandkloud.com/img/og_img.jpg{% endif %}"/>
+        <meta name="twitter:creator" content="@cloudandkloud"/>
+        
+    </head>
+    <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
+       <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N49TK8"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N49TK8');</script>
+        <!-- End Google Tag Manager -->
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <ul id="drop-services" class="dropdown-content">
+        <li><a href="{{ site.data.global.url }}/storage.html">Storage</a></li>
+        <li><a href="{{ site.data.global.url }}/computing.html">Computing</a></li>
+        <li><a href="{{ site.data.global.url }}/business.html">Business</a></li>
+    </ul>
+    <ul id="drop-services-mov" class="dropdown-content">
+        <li><a href="{{ site.data.global.url }}/storage.html">Storage</a></li>
+        <li><a href="{{ site.data.global.url }}/computing.html">Computing</a></li>
+        <li><a href="{{ site.data.global.url }}/business.html">Business</a></li>
+    </ul>
+    <nav class="main-nav hide-on-large-only">
+        <div class="nav-wrapper">
+         <a href="{{ site.data.global.url }}/index.html" class="brand-logo center"><img src="{{ site.data.global.url }}/img/logo-min.png" alt="C&K"></a>
+          <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="side-nav" id="mobile-menu">
+            <li><a class="waves-effect" href="{{ site.data.global.url }}/contacto.html">Contacto</a></li>
+            <li class="active"><a class="waves-effect" href="#!">Blog</a></li>
+            <li><a class="waves-effect" href="{{ site.data.global.url }}/nosotros.html">Nosotros</a></li>
+            <li><a class="waves-effect dropdown-button active" href="#" data-activates="drop-services-mov">Servicios <i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+    </nav>
+     
+     <nav class="main-nav hide-on-med-and-down up-nav" id="up-nav">
+         <div class="nav-wrapper">
+             <a href="{{ site.data.global.url }}/index.html" class="brand-logo center"><img src="{{ site.data.global.url }}/img/logo.png" alt="C&K"></a>
+             <ul class="left">
+                  <li><a class="waves-effect" href="{{ site.data.global.url }}/contacto.html">Contacto</a></li>
+                  <li class="active"><a class="waves-effect" href="#!">Blog</a></li>
+                  <li><a class="waves-effect" href="{{ site.data.global.url }}/nosotros.html">Nosotros</a></li>
+                  <li><a class="waves-effect dropdown-button" href="#" data-activates="drop-services">Servicios <i class="material-icons right">arrow_drop_down</i></a></li>
+              </ul>
+         </div>
+     </nav>
+     
+     <main class="parax">
+         <header class="services-header z-depth-2" id="header-business">
+             <div class="valign-wrapper">
+                <h1 class="valign">Blog</h1>
+            </div>
+         </header>

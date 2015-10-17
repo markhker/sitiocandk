@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    MarkHkr -- UI/UX Designer -- @markhker
+    Sekyus -- Security -- @Sekyus01
+
+# THANKS
+
+    MarkHkr
+    Sekyus
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+    GreenSock, Snap.svg
+    Classie, Materialize

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://cloudandkloud.com/</loc>
+  <lastmod>2015-10-15T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://cloudandkloud.com/index.html</loc>
+  <lastmod>2015-10-15T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://cloudandkloud.com/nosotros.html</loc>
+  <lastmod>2015-10-15T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://cloudandkloud.com/business.html</loc>
+  <lastmod>2015-10-15T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://cloudandkloud.com/contacto.html</loc>
+  <lastmod>2015-10-15T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://cloudandkloud.com/blog/</loc>
+  <lastmod>2015-10-15T10:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://cloudandkloud.com/storage.html</loc>
+  <lastmod>2015-10-15T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://cloudandkloud.com/computing.html</loc>
+  <lastmod>2015-10-15T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://cloudandkloud.com/privacidad/index.html</loc>
+  <lastmod>2015-10-15T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Contáctanos | Cloud &amp; Kloud</title>
+        <meta name="description" content="">
+        <meta name="author" content="Mark Hkr">
+        <meta property="fb:admins" content="100002353510548" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/materialize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <ul id="drop-services" class="dropdown-content">
+        <li><a href="storage.html">Storage</a></li>
+        <li><a href="computing.html">Computing</a></li>
+        <li><a href="business.html">Business</a></li>
+    </ul>
+    <ul id="drop-services-mov" class="dropdown-content">
+        <li><a href="storage.html">Storage</a></li>
+        <li><a href="computing.html">Computing</a></li>
+        <li><a href="business.html">Business</a></li>
+    </ul>
+    <nav class="main-nav hide-on-large-only">
+        <div class="nav-wrapper">
+         <a href="index.html" class="brand-logo center"><img src="img/logo-min.png" alt="C&K"></a>
+          <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="side-nav" id="mobile-menu">
+            <li class="active"><a class="waves-effect" href="#!">Contacto</a></li>
+            <li><a class="waves-effect" href="#">Blog</a></li>
+            <li><a class="waves-effect" href="nosotros.html">Nosotros</a></li>
+            <li><a class="waves-effect dropdown-button active" href="#" data-activates="drop-services-mov">Servicios <i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+    </nav>
+     
+     <nav class="main-nav hide-on-med-and-down up-nav" id="up-nav">
+         <div class="nav-wrapper">
+             <a href="index.html" class="brand-logo center"><img src="img/logo.png" alt="C&K"></a>
+             <ul class="left">
+                  <li class="active"><a class="waves-effect" href="#!">Contacto</a></li>
+                  <li><a class="waves-effect" href="#">Blog</a></li>
+                  <li><a class="waves-effect" href="nosotros.html">Nosotros</a></li>
+                  <li><a class="waves-effect dropdown-button" href="#" data-activates="drop-services">Servicios <i class="material-icons right">arrow_drop_down</i></a></li>
+              </ul>
+         </div>
+     </nav>
+     
+     <main class="parax">
+         <header class="services-header z-depth-2" id="header-contact">
+             <div class="valign-wrapper">
+                <h1 class="valign">Contáctanos</h1>
+            </div>
+         </header>
+         
+         <section class="parax-layer layer-4 contact">
+             <article class="row">
+                 <div class="col s12 m4 data-contact">
+                    <ul>
+                        <li>
+                            <i class="material-icons">home</i>
+                            <span>Ciudad de México, D.F.</span>
+                        </li>
+                        <li>
+                            <i class="material-icons">smartphone</i>
+                            <a href="tel:+525536717281">(01) 55 3671 7281</a>
+                        </li>
+                        <li>
+                            <i class="material-icons">mail</i>
+                            <a href="mailto:info@cloudandkloud.com">info@cloudandkloud.com</a>
+                        </li>
+                        <li>
+                            <i class="material-icons">http</i>
+                            <a href="http://cloudandkloud.com">cloudandkloud.com</a>
+                        </li>
+                    </ul>
+                 </div>
+                 <div class="col s12 m7">
+                     <form action="contact.php" method="post" id="contact-form">
+                         <div class="row">
+                             <div class="input-field col s12 m6 offset-m3">
+                                 <select name="type" id="type">
+                                     <option value="storage">Storage</option>
+                                     <option value="computing">Computing</option>
+                                     <option value="business">Business</option>
+                                     <option value="otro">Otro</option>
+                                 </select>
+                                 <label for="type">¿Qué servicio te interesa?</label>
+                             </div>
+                             <div class="row">
+                                 <div class="input-field col s12 m6">
+                                     <i class="material-icons prefix">account_circle</i>
+                                     <input id="name" type="text" class="validate">
+                                     <label for="name">Tu Nombre</label>
+                                 </div>
+                                 <div class="input-field col s12 m6">
+                                     <i class="material-icons prefix">mail</i>
+                                     <input id="mail" type="email" class="validate">
+                                     <label for="mail" data-error="Por favor introduce una dirección válida">Tu E-Mail</label>
+                                 </div>
+                             </div>
+                             <div class="row">
+                                 <div class="input-field col s12 m6">
+                                     <i class="material-icons prefix">smartphone</i>
+                                     <input id="tel" type="tel" class="validate">
+                                     <label for="tel">Tu Teléfono</label>
+                                 </div>
+                                 <div class="input-field col s12 m6">
+                                     <i class="material-icons prefix">business</i>
+                                     <input id="business" type="text" class="validate">
+                                     <label for="business">Nombre de tu empresa</label>
+                                 </div>
+                             </div>
+                             <div class="row">
+                                 <div class="input-field col s12">
+                                     <i class="material-icons prefix">mode_edit</i>
+                                     <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                                     <label for="message">Escribe aquí tu mensaje. Mantenlo simple, conciso e intrigante!</label>
+                                 </div>
+                             </div>
+                             <div class="row center">
+                                 <button id="sender" class="btn waves-effect waves-light" type="submit" name="action">Enviar <i class="material-icons">send</i></button>
+                                 
+                                 <div id="form-progress" class="progress form-sending">
+                                     <div class="indeterminate"></div>
+                                 </div>
+                             </div>
+                         </div>
+                     </form>
+                 </div>
+             </article>
+         </section>
+         
+         <figure id="us-1">
+             <img class="responsive-img" src="img/contact.jpg" alt="El equipo">
+         </figure>
+         
+         <section class="parax-layer layer-3 z-depth-3" id="bottom-link-services">
+             <article class="row valign-wrapper">
+                     <a href="business.html" class="valign">¿Ya conoces nuestros servicios? <i class="fa fa-arrow-right"></i></a>
+             </article>
+         </section>
+     </main>
+     
+     <footer class="main-footer">
+         <section class="row valign-wrapper">
+             <article class="col s3 l3 valign center hide-on-small-only">
+                 <p>© 2015 Cloud &amp; Kloud</p>
+             </article>
+             <article class="col s12 l6 social-footer valign center">
+                 <ul class="social-icons">
+                     <li><a href="#!"><i class="fa fa-linkedin fa-3x"></i></a></li>
+                     <li><a href="#!"><i class="fa fa-twitter fa-3x"></i></a></li>
+                     <li><a href="#!"><i class="fa fa-facebook fa-3x"></i></a></li>
+                 </ul>
+             </article>
+         </section>
+     </footer>
+      
+
+      <a href="#0" class="cd-top btn-floating waves-effect waves-light material-icons z-depth-2">keyboard_arrow_up</a>
+       <!-- /container -->        
+       
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
+        <script src="js/vendor/materialize.min.js"></script>
+        <script src="js/min/form-min.js"></script>
+        <!--script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script-->
+        <script src="js/min/main-min.js"></script>
+    </body>
+</html>

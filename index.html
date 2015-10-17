@@ -4,29 +4,71 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Cloud &amp; Kloud</title>
-        <meta name="description" content="">
-        <meta name="author" content="Mark Hkr">
-        <meta property="fb:admins" content="100002353510548" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="css/materialize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
+        
+        <!-- FavIcon -->
+        <link rel="image_src" href="img/icon.png">
+        <link rel="icon" href="img/icon.png">
+        <link rel="shortcut icon" href="img/icon.png">
+        
+        <!-- Metas -->
+        <meta name="description" content="Cloud & Kloud | Tu empresa en la nube | México">
+        <meta name="author" content="Mark Hkr">
+        <meta property="fb:admins" content="100002353510548" />
+        
+        <!-- Open Graph -->
+        <meta property="og:title" content="Tu empresa en la nube | México">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Cloud & Kloud">
+        <meta property="og:url" content="http://cloudandkloud.com">
+        <meta property="og:description" content="Somos la empresa de desarrollo y tecnología innovadora en Cloud Computing capaz de llevar a tu compañía al siguiente nivel, llegando a mercados más grandes, mejorando su productividad, reduciendo costes e incrementando el valor total de tu organización">
+        <meta property="og:image" content="http://cloudandkloud.com/img/og_img.jpg">
+        
+        <!--Twitter-->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@cloudandkloud">
+        <meta name="twitter:description" content="Somos la empresa de desarrollo y tecnología innovadora en Cloud Computing capaz de llevar a tu compañía al siguiente nivel, llegando a mercados más grandes, mejorando su productividad, reduciendo costes e incrementando el valor total de tu organización"/>
+        <meta name="twitter:title" content="Cloud & Kloud |Tu empresa en la nube | México"/>
+        <meta name="twitter:image" content="http://cloudandkloud.com/img/og_img.jpg"/>
+        <meta name="twitter:creator" content="@cloudandkloud"/>
+        
     </head>
     <body>
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N49TK8"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N49TK8');</script>
+        <!-- End Google Tag Manager -->
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <ul id="drop-services" class="dropdown-content">
+        <li><a href="storage.html">Storage</a></li>
+        <li><a href="computing.html">Computing</a></li>
+        <li><a href="business.html">Business</a></li>
+    </ul>
+    <ul id="drop-services-mov" class="dropdown-content">
+        <li><a href="storage.html">Storage</a></li>
+        <li><a href="computing.html">Computing</a></li>
+        <li><a href="business.html">Business</a></li>
+    </ul>
     <nav class="main-nav hide-on-large-only">
         <div class="nav-wrapper">
          <a href="#!" class="brand-logo center"><img src="img/logo-min.png" alt="C&K"></a>
           <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="side-nav" id="mobile-menu">
-            <li><a class="waves-effect" href="#">Servicios</a></li>
-            <li><a class="waves-effect" href="#">Nosotros</a></li>
-            <li><a class="waves-effect" href="#">Blog</a></li>
-            <li><a class="waves-effect" href="#">Contacto</a></li>
+            <li><a class="waves-effect" href="contacto.html">Contacto</a></li>
+            <li><a class="waves-effect" href="blog">Blog</a></li>
+            <li><a class="waves-effect" href="nosotros.html">Nosotros</a></li>
+            <li><a class="waves-effect dropdown-button" href="#" data-activates="drop-services-mov">Servicios <i class="material-icons right">arrow_drop_down</i></a></li>
           </ul>
         </div>
     </nav>
@@ -35,10 +77,10 @@
          <div class="nav-wrapper">
              <a href="#!" class="brand-logo center"><img src="img/logo.png" alt="C&K"></a>
              <ul class="left">
-                  <li><a href="#!" class="waves-effect waves-blue">Servicios</a></li>
-                  <li><a href="#!" class="waves-effect waves-blue">Nosotros</a></li>
-                  <li><a href="#!" class="waves-effect waves-blue">Blog</a> </li>
-                  <li><a href="#!" class="waves-effect waves-blue">Contacto</a></li>
+                  <li><a class="waves-effect" href="contacto.html">Contacto</a></li>
+                  <li><a class="waves-effect" href="blog">Blog</a></li>
+                  <li><a class="waves-effect" href="nosotros.html">Nosotros</a></li>
+                  <li><a class="waves-effect dropdown-button" href="#" data-activates="drop-services">Servicios <i class="material-icons right">arrow_drop_down</i></a></li>
               </ul>
          </div>
      </nav>
@@ -76,19 +118,19 @@
                 <div class="col s12 m3 offset-m1">
                     <h2>Storage</h2>
                     <p>Infraestructura de almacenamiento masivo en la nube, copia de datos, seguridad y administración eficiente de sus datos más importantes.</p>
-                    <a class="waves-effect waves-blue btn-flat" href="#!">Almacena <i class="material-icons">trending_flat</i></a>
+                    <a class="waves-effect waves-blue btn-flat" href="storage.html">Almacena <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
                 
                 <div class="col s12 m4">
                     <h2>Computing</h2>
                     <p>Soluciones basadas en nube pública, privada e híbrida, de alto poder de procesamiento; enfocadas en la seguridad de sus datos.</p>
-                    <a class="waves-effect waves-blue btn-flat" href="#!">Procesa <i class="material-icons">trending_flat</i></a>
+                    <a class="waves-effect waves-blue btn-flat" href="computing.html">Procesa <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
                 
                 <div class="col s12 m3">
                     <h2>Business</h2>
                     <p>Tu empresa volando en la nube, nos hacemos cargo de llevarla a lo más alto.</p>
-                    <a class="waves-effect waves-blue btn-flat" href="#!">Vuela! <i class="material-icons">trending_flat</i></a>
+                    <a class="waves-effect waves-blue btn-flat" href="business.html">Vuela! <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
             </article>
          </section>
@@ -99,11 +141,32 @@
                     <h2>Quienes somos?</h2>
                     <h3>Un pequeño, pero poderoso equipo.</h3>
                     <p>Somos una empresa de desarrollo y tecnología innovadora en Cloud Computing capaz de llevar a tu compañía al siguiente nivel, llegando a mercados más grandes, mejorando su productividad, reduciendo costes e incrementando el valor total de tu organización.</p>
-                    <a class="waves-effect waves-blue btn-flat" href="#!">Conócenos <i class="material-icons">trending_flat</i></a>
+                    <a class="waves-effect waves-blue btn-flat" href="nosotros.html">Conócenos <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
             </article>             
          </section>
+         
+         <section class="parax-layer layer-3 z-depth-3" id="bottom-link-home">
+             <article class="row valign-wrapper">
+                     <a href="nosotros.html" class="white-text valign">¿Más interesado en lo que hacemos? <i class="fa fa-arrow-right"></i></a>
+             </article>
+         </section>
      </main>
+     
+     <footer class="main-footer">
+         <section class="row valign-wrapper">
+             <article class="col s3 l3 valign center hide-on-small-only">
+                 <p>© 2015 Cloud &amp; Kloud</p>
+             </article>
+             <article class="col s12 l6 social-footer valign center">
+                 <ul class="social-icons">
+                     <li><a href="https://www.linkedin.com/company/cloud-and-kloud"><i class="fa fa-linkedin fa-3x"></i></a></li>
+                     <li><a href="https://twitter.com/cloudandkloud"><i class="fa fa-twitter fa-3x"></i></a></li>
+                     <li><a href="https://www.facebook.com/cloudandkloud"><i class="fa fa-facebook fa-3x"></i></a></li>
+                 </ul>
+             </article>
+         </section>
+     </footer>
       
 
       <a href="#0" class="cd-top btn-floating waves-effect waves-light material-icons z-depth-2">keyboard_arrow_up</a>
@@ -112,7 +175,6 @@
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
         <script src="js/vendor/materialize.min.js"></script>
-        <!--script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script-->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.min.js"></script>
         <script src="js/min/waves-min.js"></script>

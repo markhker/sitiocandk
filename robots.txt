@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /img/
+Disallow: /css/
+Disallow: /font/
+Disallow: /assets/
+Disallow: /partials/
+Disallow: /js/
+Disallow: /scss/
+Disallow: /proyects/img/
+Disallow: /proyects/css/
+Disallow: /proyects/assets/
+Disallow: /proyects/js/
+Disallow: /contact.php
+Disallow: /cgi-bin/
+
+Sitemap: http://cloudandkloud.com/sitemap.xml
+
+Host: cloudandkloud.com/
